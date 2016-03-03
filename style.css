@@ -1,0 +1,80 @@
+html{
+height: 100%;
+background-color: #fff;
+font-family: 'Montserrat', Futura, sans-serif;background-color: #F9F9F9;
+color: #e22544;
+}
+
+body{
+	margin: auto;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	font-family: Montserrat, Futura, sans-serif;
+	/* background-color: #F9F9F9; */
+	max-width: 600px;
+}
+
+.logo{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 20px;
+}
+
+.logo_lm{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 20px;
+}
+
+.jurigif{
+	text-align: center;
+	margin-top: 10px;
+	width: 300px;
+	display: inline-block;
+}
+
+.quote{
+	/* margin-top: 3vh; */
+	display: inline-block;
+	padding: 20px;
+	border: 2px solid #e22544;
+	border-radius: 10px;
+	background-color: white;
+	width: 240px;
+	z-index: 0000;
+	margin-top: 
+}
+
+.balloon{
+	position: relative;
+}
+
+.balloon img{
+	position: absolute;
+	top: -18px;
+	left: 50%;
+	transform: translateX(-50%);}
+
+button{
+	  border:none;
+	  background-color: #f9f9f9;
+	  padding: 0;
+}
+
+.refresh{
+	position: absolute;
+	bottom: 5vh;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 40px;
+}
+
+.refresh img{
+	width: 40px;
+}
