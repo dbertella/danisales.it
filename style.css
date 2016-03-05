@@ -1,37 +1,36 @@
-html{
-height: 100%;
-background-color: #fff;
-font-family: 'Montserrat', Futura, sans-serif;background-color: #F9F9F9;
-color: #e22544;
-}
-
 body{
+	margin: 0;
+	padding: 0;
 	text-align: center;
 	text-transform: uppercase;
-	box-sizing: border-box;
-	font-family: Montserrat, Futura, sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	background: #777;
 }
-
+img {
+	max-width: 100%;
+}
 .container {
 	position: relative;
 
 }
 .dani {
-	text-align: center;
-	margin-top: 10px;
+	display: inline-block;
+	margin-top: 100px;
 	width: 300px;
+	cursor: pointer;
 }
 
 .quoteWrap {
 	display: table;
-	position: absolute;
-    top: 124px;
+    position: absolute;
+    top: 213px;
     left: 50%;
     width: 214px;
     height: 150px;
-    margin-left: -130px;
+    margin-left: -115px;
     padding: 0 15px;
     z-index: 99;
+    box-sizing: border-box;
 }
 .quote {
 	display: table-cell;
