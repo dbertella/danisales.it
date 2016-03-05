@@ -2,12 +2,24 @@ body{
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
-	background: #777;
+	font-size: 1.5em;
+	line-height: 1.1;
+	font-family: 'Cuprum', sans-serif;
+	background: #f7f7fa;
+	color: #373737;
 }
 img {
 	max-width: 100%;
+}
+.preload-images {
+  display: none;
+  width: 0;
+  height: 0;
+  background: url(danisales-01.jpg),
+              url(danisales-02.jpg),
+              url(danisales-03.jpg),
+              url(danisales-04.jpg),
+              url(danisales-05.jpg);
 }
 .container {
 	position: relative;
@@ -35,32 +47,4 @@ img {
 .quote {
 	display: table-cell;
 	vertical-align: middle;
-}
-
-.balloon{
-	position: relative;
-}
-
-.balloon img{
-	position: absolute;
-	top: -18px;
-	left: 50%;
-	transform: translateX(-50%);}
-
-button{
-	  border:none;
-	  background-color: #f9f9f9;
-	  padding: 0;
-}
-
-.refresh{
-	position: absolute;
-	bottom: 5vh;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 40px;
-}
-
-.refresh img{
-	width: 40px;
 }
