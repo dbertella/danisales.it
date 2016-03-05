@@ -1,4 +1,4 @@
-var Quotation = [
+var quotes = [
 	'Interessante',
 	'Molto interessante',
 	'Più induttivo',
@@ -32,25 +32,20 @@ var Quotation = [
 	'se c\'è mediocrità ci sono più opportunità',
 ];
 
-
-// ======================================
-// Do not change anything below this line
-// ======================================
-var Q = Quotation.length;
+var q = quotes.length;
 var dani = document.querySelector('.dani');
 
 var showQuotation = function() {
-	var whichQuotation = Math.round(Math.random() * (Q - 1));
-	var wichImg = Math.ceil(Math.random() * 5);
+	var randomQuote = Math.round(Math.random() * (q - 1));
+	var randomImg = Math.ceil(Math.random() * 5);
 	var img = document.createElement('img');
-	img.src = 'danisales-0' + wichImg + '.jpg';
+	img.src = 'danisales-0' + randomImg + '.jpg';
 	dani.innerHTML = '';
 	dani.appendChild(img);
-	document.querySelector('.quote').innerText = Quotation[whichQuotation];
+	document.querySelector('.quote').innerText = quotes[randomQuote];
 }
-
+showQuotation();
 dani.addEventListener('click', showQuotation, false);
 
-showQuotation();
 
 
